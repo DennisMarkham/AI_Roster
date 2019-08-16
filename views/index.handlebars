@@ -1,6 +1,21 @@
+
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Sex</th> 
+    <th>Species</th>
+    <th>Age</th>
+    <th>Talents</th>
+  </tr>
 {{#each roster}}
-
-  	   <p>name: {{this.flname}}</p>
-
-  
+<tr>
+<td>{{this.flname}}</td>
+<td>{{this.sex}}</td>
+<td>{{this.species}}</td>
+<td>{{this.age}}</td>
+<td>{{this.talents}}</td>
+</tr>
 {{/each}}
+
+</table>
